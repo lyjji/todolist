@@ -1,0 +1,178 @@
+@charset "utf-8";
+
+/* 초기화 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* font-family: "NanumSquareRoundLight";
+  font-family: "NanumSquareRound"; */
+  font-family: "NanumSquareRoundBold";
+  /* font-family: "NanumSquareRoundExtraBold"; */
+  color: #222;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+button {
+  cursor: pointer;
+}
+/* wrap */
+
+#wrap {
+  margin: 50px auto;
+  width: 800px;
+  text-align: center;
+}
+
+#wrap .top {
+  border-bottom: 1px solid #ccc;
+}
+
+#wrap .top h1 {
+  font-size: 50px;
+  color: #d9e026;
+  text-shadow: 1px 1px 2px #ccc;
+  font-weight: bold;
+}
+
+#wrap .top h1 img {
+  width: 50px;
+}
+
+#wrap .top .inp {
+  display: inline-block;
+  margin: 30px auto;
+  padding: 2px 0px 0px 5px;
+  box-sizing: border-box;
+  width: 400px;
+  height: 35px;
+  border: none;
+  border-bottom: 2px solid black;
+  border-radius: 10px 10px 0px 0px;
+  background-color: #eef0af;
+  font-size: 18px;
+}
+
+#wrap .top input {
+  margin: 5px;
+  padding: 2px 5px;
+  width: 345px;
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+}
+
+#wrap .top button {
+  padding: 5px 8px;
+  background-color: #b0b653;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+#wrap .top button:hover {
+  filter: brightness(1.1);
+}
+
+.tabs {
+  margin: 20px auto 0px;
+  padding: 0px 20px;
+  box-sizing: border-box;
+  width: 700px;
+  display: flex;
+  gap: 3px;
+}
+
+.tabs li {
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 5px 5px 0px 0px;
+  background-color: #b0b653;
+  font-size: 16px;
+  color: white;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.tabs li.on {
+  font-size: 17px;
+  text-shadow: 1px 1px 1px #ccc;
+  font-weight: bold;
+  opacity: 1;
+}
+
+#all {
+  background-color: #d2d62e;
+}
+
+#ing {
+  background-color: #83a2b1;
+}
+
+#done {
+  background-color: #ba99c7;
+}
+
+#dolist {
+  margin: 0px auto;
+  padding: 40px 30px;
+  box-sizing: border-box;
+  width: 700px;
+  background-color: #f5f7d6;
+  border-radius: 15px;
+}
+
+#dolist li {
+  margin: 0 auto 15px;
+  padding: 0 10px 3px 5px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+}
+
+#dolist li div {
+  display: flex;
+  align-items: center;
+}
+
+#dolist li .isCfal {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  border: 2px solid #222;
+  border-radius: 3px;
+}
+
+#dolist li .isCtru {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #222;
+  background-color: #222;
+  border-radius: 3px;
+}
+
+#dolist li p.iCt {
+  text-decoration: line-through;
+}
+
+#dolist li .del {
+  border: none;
+  background-color: transparent;
+  font-size: 17px;
+}

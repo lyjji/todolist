@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square-round.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="wrap">
+      <div class="top">
+        <h1>
+          To Do List <img src="img/free-icon-pencil-6300969.png" alt="" />
+        </h1>
+        <div class="inp">
+          <label><i class="fa-regular fa-square nock"></i></label>
+          <input id="write" placeholder="???" type="text" />
+        </div>
+        <button id="add"><i class="fa-solid fa-plus"></i></button>
+      </div>
+      <ul class="tabs">
+        <li id="all" class="on">모두</li>
+        <li id="ing">진행 중</li>
+        <li id="done">완료</li>
+      </ul>
+      <ul id="dolist">
+        <!-- <li>
+          <div>
+            <button class="isCfal"></button>
+            <p>메롱</p>
+          </div>
+          <button class="del">
+            <i class="fa-regular fa-circle-xmark del"></i>
+          </button>
+        </li>
+        <li>
+          <div>
+            <button class="isCtru"></button>
+            <p class="iCt">메롱</p>
+          </div>
+          <button class="del">
+            <i class="fa-regular fa-circle-xmark del"></i>
+          </button>
+        </li> -->
+      </ul>
+    </div>
+
+    <script src="js/custom.js"></script>
+  </body>
+</html>
